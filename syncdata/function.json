@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "sync-data",
+      "connection": "pgspider_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/syncdata/index.js"
+}
